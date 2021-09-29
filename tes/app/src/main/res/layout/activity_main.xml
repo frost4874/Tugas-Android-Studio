@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1113"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <Button android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/he"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"></TextView>
+
+        <Button android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/galeri"
+            android:layout_marginTop="33dp"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView android:layout_marginLeft="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galeri"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="156dp"
+            android:layout_marginRight="156dp"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/alarm"
+            android:theme="@style/buttonstyle1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alarm"
+            android:layout_marginLeft="186dp"
+            android:layout_marginTop="100dp"></TextView>
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom1"
+        android:drawableTop="@drawable/donlod"
+        android:theme="@style/buttonstyle1"
+        android:id="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:text="Download"
+            android:gravity="bottom"
+            android:paddingLeft="20dp"></TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/broser"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:text="Browser"
+            android:gravity="bottom"
+            android:paddingLeft="25dp"></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TableLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/erplen"
+            android:layout_marginTop="170dp"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView android:text="Mode Pesawat"
+            android:gravity="center"></TextView>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="70dp"
+        android:fillViewport="true">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:background="@drawable/custom1"
+            android:drawableTop="@drawable/mail"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:fillViewport="true">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom1"
+            android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/setting"
+            android:layout_marginTop="320dp"
+            android:theme="@style/buttonstyle1"
+            android:id="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:gravity="center"
+        android:layout_marginTop="420dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:gravity="center"
+        android:layout_marginTop="420dp"></TextView>
+</FrameLayout>>
